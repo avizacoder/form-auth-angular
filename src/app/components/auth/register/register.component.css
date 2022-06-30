@@ -1,0 +1,127 @@
+.register-container {
+    height: auto;
+    margin: 1.7em;
+    padding: 1.7em;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    border-radius: 1em;
+    
+}
+
+.register-container > * {
+    padding: 1em;
+}
+
+.register-form {
+    background: rgb(58, 57, 57, .3);
+}
+
+.logo-register,h2 {
+    text-align: center;
+    padding: 1.5em;
+}
+
+.register-form img {
+    width: 150px;
+}
+
+.register-form form {
+    padding: 0 50px 0 50px;
+}
+.register-form form input,
+.register-form form button {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background: none;
+    color: #fff;
+    outline: none;
+    border-bottom: 1px solid #02d69d;
+}
+
+.register-form form button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background: #02d69d;
+    border: 0;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.register-form form button:hover,
+.register-form form button.focus {
+    background: #04bd8c;
+    color: #fff;
+    transition: background-color 1s ease-in-out;
+    outline: 0;
+}
+
+.register-form form ul {
+    list-style: none;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-form form a {
+    text-decoration: none;
+    color: #02d69d;
+}
+
+.register-form form a:hover {
+    color: #fff;
+}
+
+/* info banner  */
+
+.banner-info {
+    background: url('../../../../assets/audiolibro.jpeg') no-repeat center center/cover;
+}
+
+.banner-info ul  {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    font-size: 18px;
+}
+
+.banner-info a {
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
+}
+
+.banner-info a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.banner-info h2 {
+    color: #fff;
+    font-size: 50px;
+    
+}
+
+.banner-info h4 {
+    padding-right: 80px;
+    margin-bottom: 80px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner-info p {
+    padding-left: 250px;
+    margin-top: 150px;
+    font-size: 20px;
+    color: #fff;
+}
+
+@media (min-width: 700px) {
+    .register-container {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+}
+
+
+
+

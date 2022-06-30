@@ -1,0 +1,37 @@
+<div class="register-container">
+    <div class="register-form">
+        <div class="logo-register">
+            <img src="assets/amazon.png" alt="">
+        </div>
+        <h2>Registrarme con mi cuenta de Amazon</h2>
+        <form [formGroup]="registerForm" (ngSubmit)="onRegister(registerForm.value)">
+
+            <label for="name">Nombre</label><br>
+            <input type="name" id="name" formControlName="name"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" formControlName="email"><br><br>
+        
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" formControlName="password"><br><br>
+
+            <button class="btn-register">Registrarse</button>
+
+            <ul>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+            </ul>
+            
+
+        </form>
+    </div>
+    <div class="banner-info">
+        <ul>
+            <li><a href="/register">portada 1</a></li>
+            <li><a href="/register">portada 2</a></li>
+        </ul>
+        <h2>Registrarme y obtener un audiolibro gratis</h2>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum fuga vel veniam eius accusamus neque dicta, harum recusandae cumque officiis. Voluptate impedit veniam sed in officiis molestiae nihil harum.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, sequi. Placeat itaque minus eum recusandae quidem illum illo ipsum labore maxime dicta reprehenderit sequi voluptates eligendi cupiditate, exercitationem, amet quas. Eveniet dicta repudiandae aliquam itaque sint deleniti</p>
+    </div>
+</div>
